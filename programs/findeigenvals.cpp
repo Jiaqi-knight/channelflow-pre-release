@@ -157,8 +157,10 @@ int main(int argc, char* argv[]) {
             cout << "\nCFL == " << dsi->getCFL() << endl;
 
         Real l2normGx = L2Norm(Gx);
-        if (taskid == 0)
+        if (taskid == 0) {
             cout << "L2Norm(Gx = (x - sigma f^T(x)) ) = " << l2normGx << endl;
+            cout << "L2Norm(Gx normalized = (x - sigma f^T(x))/T ) = " << l2normGx / dnsflags.T << endl;
+        }
 
         if (l2normGx > 1e-06)
             cferror("error: (u, sigma, T) is not a solution such as sigma f^T(u) - u = 0");

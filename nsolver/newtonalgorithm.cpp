@@ -518,7 +518,7 @@ VectorXd NewtonAlgorithm::solve(DSI& dsiG, const VectorXd& y0, Real& gx) {
 
         if (gx < epsSearch) {
             *os << "Newton search converged. Breaking." << endl;
-            *os << "1/2 L2Norm(G(x)) == " << gx << " < "
+            *os << "L2Norm(G(x)) == " << gx << " < "
                 << "epsSearch"
                 << " == " << epsSearch << endl;
             success = true;
