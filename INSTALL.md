@@ -64,19 +64,23 @@ The correct functionality of the Channelflow code is tested in two ways:
 * **Unit tests** are tests of individual classes or methods.
 * **Integration tests** are tests of applications with all underlying code.
 
-Both test types are hooked to the make test command, where they run sequentially.
-For verbose output and debugging, run `make test ARGS=“-V”`
+Both test types are hooked to the `make test` command, where they run sequentially.
+If all tests pass successfully, the installation was successful.
+When `make test` hangs on executing a test, re-run the tests and see if the problem persists.
+For verbose output and debugging, run `make test ARGS="-V"`
 
-To run only the unit tests, run `tests/gtest/runUnitTest` in the CMake build directory.Pass argument <br/>
-`–gtest_filter=<foo>`
+Unit tests use the [googletest](https://github.com/google/googletest) framework, which comes bundled with channelflow in its version 1.8.0.
+To run only the unit tests, run `tests/gtest/runUnitTest` in the CMake build directory.
+Individual tests can be run by passing `--gtest_filter=<foo>` as an argument, where `<foo>` is a name or pattern of a specific unit test.
+One example would be `tests/gtest/runUnitTest --gtest_filter=TimeStepTest.*` to run all tests of the time stepping class.
+More on unit testing can be found in the [googletest Documentation](https://github.com/google/googletest/blob/master/README.md).
 
-Integration tests are found in folder tests, and registered in tests/CMakeList.txt. They are compiled into standalong
-programs, which are individually listed in tests/CMakeList.txt, from where they are called on make test.
-
+Integration tests are found in folder `tests`, and registered in `tests/CMakeList.txt`. They are compiled into standalone
+programs, which are individually listed in `tests/CMakeList.txt` from where they are called on `make test`.
+For debugging, each integration test can be run individually and with various command-line arguments.
 
 
 ### Running your first simulations
-
 
 To run a DNS we first need to provide an initial velocity field. This can be done providing a specific file or creating
 a random flowfield using the utility `randomfield` in the `tools` folder.
