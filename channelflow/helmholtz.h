@@ -1,10 +1,8 @@
 /**
  * Solution of Helmholtz eqn in Chebyshev expansions
  *
- * This file is a part of channelflow version 2.0.
- * License is GNU GPL version 2 or later: https://channelflow.org/license
- *
- * Original author:
+ * This file is a part of channelflow version 2.0 https://channelflow.ch.
+ * License is GNU GPL version 2 or later: ./LICENCE
  */
 
 #ifndef CHANNELFLOW_HELMHOLTZ_H

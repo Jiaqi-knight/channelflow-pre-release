@@ -1,6 +1,6 @@
 /**
- * This file is a part of channelflow version 2.0.
- * License is GNU GPL version 2 or later: https://channelflow.org/license
+ * This file is a part of channelflow version 2.0 https://channelflow.ch.
+ * License is GNU GPL version 2 or later: ./LICENCE
  */
 #include "newtonalgorithm.h"
 
@@ -518,7 +518,7 @@ VectorXd NewtonAlgorithm::solve(DSI& dsiG, const VectorXd& y0, Real& gx) {
 
         if (gx < epsSearch) {
             *os << "Newton search converged. Breaking." << endl;
-            *os << "1/2 L2Norm(G(x)) == " << gx << " < "
+            *os << "L2Norm(G(x)) == " << gx << " < "
                 << "epsSearch"
                 << " == " << epsSearch << endl;
             success = true;

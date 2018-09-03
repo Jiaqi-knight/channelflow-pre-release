@@ -3,10 +3,8 @@
  * TimeStep manages variable time-stepping, adjusting dt to keep CFL in range
  * DNSAlgorithm is the parent class of all time-stepper classes
  *
- * This file is a part of channelflow version 2.0.
- * License is GNU GPL version 2 or later: https://channelflow.org/license
- *
- * Original author: John F. Gibson
+ * This file is a part of channelflow version 2.0 https://channelflow.ch.
+ * License is GNU GPL version 2 or later: ./LICENCE
  */
 
 #ifndef CHANNELFLOW_DNSALGO_H

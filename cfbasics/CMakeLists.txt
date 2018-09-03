@@ -4,8 +4,8 @@
 # This permits to use it to set dependencies on targets, rather than
 # setting global include directories
 #
-# This file is a part of channelflow version 2.0.
-# License is GNU GPL version 2 or later: https://channelflow.org/license
+# This file is a part of channelflow version 2.0 https://channelflow.ch.
+# License is GNU GPL version 2 or later: ./LICENCE
 #
 
 set(
