@@ -1,10 +1,8 @@
 /**
  * Unit test for the nsolver class Arnoldi.
  *
- * This file is a part of channelflow version 2.0.
- * License is GNU GPL version 2 or later: https://channelflow.org/license
- *
- * Original author: Mirko Farano
+ * This file is a part of channelflow version 2.0 https://channelflow.ch.
+ * License is GNU GPL version 2 or later: ./LICENCE
  */
 
 #include "cfbasics/cfbasics.h"
