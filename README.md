@@ -97,7 +97,7 @@ Discourse (Coming soon)
 The Bug report shall be carried out using the [Issues] feature of GitHub.
 
 ## Authors
-(Coming soon)
+[Authors](./AUTHORS.md)
 
 ## License
 Channelflow is released under the [GNU GPL version 2](./LICENSE)
