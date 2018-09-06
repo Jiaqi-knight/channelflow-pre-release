@@ -4,8 +4,8 @@
  * DNSFlags is used to specify the integration parameters of DNS.
  * TimeStep manages variable time-stepping, adjusting dt to keep CFL in range
  *
- * This file is a part of channelflow version 2.0 https://channelflow.ch.
- * License is GNU GPL version 2 or later: ./LICENCE
+ * This file is a part of channelflow version 2.0, https://channelflow.ch .
+ * License is GNU GPL version 2 or later: ./LICENSE
  */
 
 #ifndef CHANNELFLOW_DNS_H

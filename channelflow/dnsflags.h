@@ -2,8 +2,8 @@
  * Control parameters for time-integration by spectral Navier-Stokes simulator
  * DNSFlags specifies all relevant parameters for integrating Navier-Stokes equation in standard channel domains.
  *
- * This file is a part of channelflow version 2.0 https://channelflow.ch.
- * License is GNU GPL version 2 or later: ./LICENCE
+ * This file is a part of channelflow version 2.0, https://channelflow.ch .
+ * License is GNU GPL version 2 or later: ./LICENSE
  */
 
 #ifndef CHANNELFLOW_DNSFLAGS_H

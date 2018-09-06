@@ -1,8 +1,8 @@
 /**
  * Adaption of gls brent.c to nsolver
  *
- * This file is a part of channelflow version 2.0 https://channelflow.ch.
- * License is GNU GPL version 2 or later: ./LICENCE
+ * This file is a part of channelflow version 2.0, https://channelflow.ch .
+ * License is GNU GPL version 2 or later: ./LICENSE
  *
  * Copyright (C) 1996, 1997, 1998, 1999, 2000, 2007 Brian Gough, 2015 Tobias Kreilos
  *
